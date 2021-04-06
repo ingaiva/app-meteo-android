@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "meteo_aqualas",
+    "slug": "snack-fbe251dc-929f-45ed-af15-bd2e1ea5bd23",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "aqualas.meteo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
