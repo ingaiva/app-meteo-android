@@ -12,7 +12,7 @@ import * as Location from 'expo-location';
 import * as outils from '../../outils';
 
 export default function Meteo5jours() {
-  const apiKey = '0d03db7469d9604cc4cf30772e55ad05';
+  const apiKey = 'your-key';
   const storageKey = '@bocal:tp_meteo_5jours'; 
   const [meteo, setMeteo] = useState(outils.getEmptyMeteo()); 
 

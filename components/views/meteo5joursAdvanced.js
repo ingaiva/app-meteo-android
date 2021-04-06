@@ -22,7 +22,7 @@ const iconJour = ({ color }) => (
 const iconRefresh = <FontAwesome5 name={'sync'} size={15} color="white" />;
 
 export default function Meteo5joursAdvanced() {
-  const apiKey = '0d03db7469d9604cc4cf30772e55ad05';
+  const apiKey = 'your-key';
   const storageKey = '@bocal:tp_meteo_5jours';
   const [meteo, setMeteo] = useState(outils.getEmptyMeteo());
   const [dayW, setDay] = useState('');
